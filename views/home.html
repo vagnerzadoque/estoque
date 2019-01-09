@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <style>
+      table, th, td {
+         border: 1px solid black;
+         border-collapse: collapse;
+         padding: 10px;
+      }
+      table tr:nth-child(even) {
+         background-color: #eee;
+      }
+      table tr:nth-child(odd) {
+         background-color: #fff;
+      }
+      table th {
+         color: white;
+         background-color: black;
+      }
+      table th.row {
+         color: black;
+         background: none;
+      }
+   </style>
+   <title>Document</title>
+</head>
+<body>
+
+   <table style="width:100%">
+      <tr>
+        <th>Escopo</th>
+        <th>Função</th> 
+        <th>Parâmetros</th>
+        <th>Descrição</th>
+      </tr>
+      <tr>
+        <th class="row" rowspan="2">Controllers</th>
+        <td>loadView</td> 
+        <td>$addresses = array || string, $variables =  array || string</td>
+        <td>Carrega arquivo(s) dentro da pasta view</td>
+      </tr>
+      <tr>
+        <td>loadTemplateView</td>
+        <td>$template = string, $view = array || string, array || string</td> 
+        <td>Carrega arquivo(s) dentro da pasta view</td>
+      </tr>
+    </table>
+   
+</body>
+</html>

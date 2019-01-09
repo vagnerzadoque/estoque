@@ -1,0 +1,1 @@
+[04-Dec-2018 01:38:10 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/apoio/estoque/core/globalFunctions.php:60) in /home/apoio/estoque/core/globalFunctions.php on line 364
